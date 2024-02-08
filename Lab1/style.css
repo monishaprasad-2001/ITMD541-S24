@@ -1,39 +1,69 @@
 * {
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 p {
-  margin: 50px 50px;
   font-size: 30px;
+  padding: 10px;
 }
 
-h3 {
-  margin-top: 80px;
-  font-size: 40px;
+h1 {
+  font-size: 50px;
+  padding: 10px;
 }
 
 h2 {
-  margin-top: 50px;
-  font-size: 60px;
+  font-size: 40px;
+  padding: 10px;
 }
 
 h4 {
-  margin-top: 15px;
-  font-size: 25px;
+  font-size: 30px;
+  padding: 10px;
 }
 
-.innercontainer {
+.outerLayout {
+  background-color: beige;
+  width: auto;
+  height: 100%;
+}
+
+.innerLayout {
   font-family: sans-serif;
-  background: olive;
-  border: 150px solid beige;
+  padding-top: 7%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+  height: 70%;
+  width: 70%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: burlywood;
   color: white;
   text-align: center;
 }
 
-a {
-  margin-left: 50px;
+.contactInfo {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.emailStyles {
+  margin-left: 25%;
+}
+
+.gitStyles {
   text-decoration: none;
   color: white;
+  margin-left: 20%;
+}
+
+.aboutMe {
+  text-align: justify;
+  margin-top: 50px;
 }
