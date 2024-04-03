@@ -98,7 +98,7 @@ input[type="range"] {
 body {
     font-family: "Arial", sans-serif;
     background: #6a5094;
-    background-image: linear-gradient(316deg, #12c2e9 0%, #f64f59 74%);
+    background-image: linear-gradient(316deg, #ffffff 0%, rgb(255, 0, 128) 74%);
     display: flex;
     justify-content: center;
     align-items: center;
